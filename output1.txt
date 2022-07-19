@@ -1,0 +1,934 @@
+Project 2: Customer crossing problem using pThreads and Semaphores
+*****************
+
+Parent Process PID: 4708 
+****
+Thread 59: customer would like to cross from A to B
+Thread 59: There are 0 customers waiting
+Thread 59: customer is Crossing from A to B
+Thread 59: Using Stairs
+Thread 59: The customer will finish crossing in 2 seconds
+****
+Thread 29: customer would like to cross from A to B
+Thread 29: There are 0 customers waiting
+Thread 29: customer is Crossing from A to B
+Thread 29: Using Stairs
+Thread 29: The customer will finish crossing in 2 seconds
+Thread 59: Finished Stairs. Waiting for mutex
+Thread 59: Mutex Passed
+Thread 59: Signaling Mutex
+****
+Thread 68: customer would like to cross from B to A
+Thread 68: There are 0 customers waiting
+Thread 29: Finished Stairs. Waiting for mutex
+Thread 29: Mutex Passed
+Thread 29: Crossing Direction Reset
+Thread 29: Signaling Mutex
+Thread 68: customer is Crossing from B to A
+Thread 68: Using Stairs
+Thread 68: The customer will finish crossing in 5 seconds
+****
+Thread 93: customer would like to cross from A to B
+Thread 93: There are 0 customers waiting
+****
+Thread 63: customer would like to cross from A to B
+Thread 63: There are 1 customers waiting
+****
+Thread 82: customer would like to cross from B to A
+Thread 82: There are 0 customers waiting
+Thread 82: customer is Crossing from B to A
+Thread 82: Using Stairs
+Thread 82: The customer will finish crossing in 4 seconds
+****
+Thread 69: customer would like to cross from A to B
+Thread 69: There are 2 customers waiting
+****
+Thread 37: customer would like to cross from A to B
+Thread 37: There are 3 customers waiting
+Thread 68: Finished Stairs. Waiting for mutex
+Thread 68: Mutex Passed
+Thread 68: Signaling Mutex
+****
+Thread 41: customer would like to cross from A to B
+Thread 41: There are 4 customers waiting
+Thread 82: Finished Stairs. Waiting for mutex
+Thread 82: Mutex Passed
+Thread 82: Crossing Direction Reset
+Thread 82: Signaling Mutex
+Thread 93: customer is Crossing from A to B
+Thread 93: Using Stairs
+Thread 93: The customer will finish crossing in 6 seconds
+Thread 63: customer is Crossing from A to B
+Thread 63: Using Stairs
+Thread 63: The customer will finish crossing in 5 seconds
+Thread 69: customer is Crossing from A to B
+Thread 69: Using Stairs
+Thread 69: The customer will finish crossing in 4 seconds
+****
+Thread 56: customer would like to cross from B to A
+Thread 56: There are 0 customers waiting
+****
+Thread 8: customer would like to cross from B to A
+Thread 8: There are 1 customers waiting
+****
+Thread 22: customer would like to cross from B to A
+Thread 22: There are 2 customers waiting
+****
+Thread 24: customer would like to cross from B to A
+Thread 24: There are 3 customers waiting
+Thread 69: Finished Stairs. Waiting for mutex
+Thread 69: Mutex Passed
+Thread 69: Signaling Mutex
+Thread 37: customer is Crossing from A to B
+Thread 37: Using Stairs
+Thread 37: The customer will finish crossing in 2 seconds
+****
+Thread 65: customer would like to cross from A to B
+Thread 65: There are 1 customers waiting
+Thread 63: Finished Stairs. Waiting for mutex
+Thread 63: Mutex Passed
+Thread 63: Signaling Mutex
+****
+Thread 89: customer would like to cross from A to B
+Thread 89: There are 2 customers waiting
+Thread 93: Finished Stairs. Waiting for mutex
+Thread 93: Mutex Passed
+Thread 93: Signaling Mutex
+Thread 37: Finished Stairs. Waiting for mutex
+Thread 37: Mutex Passed
+Thread 37: Crossing Direction Reset
+Thread 37: Signaling Mutex
+Thread 56: customer is Crossing from B to A
+Thread 56: Using Stairs
+Thread 56: The customer will finish crossing in 4 seconds
+Thread 8: customer is Crossing from B to A
+Thread 8: Using Stairs
+Thread 8: The customer will finish crossing in 3 seconds
+Thread 22: customer is Crossing from B to A
+Thread 22: Using Stairs
+Thread 22: The customer will finish crossing in 1 seconds
+****
+Thread 77: customer would like to cross from A to B
+Thread 77: There are 3 customers waiting
+Thread 22: Finished Stairs. Waiting for mutex
+Thread 22: Mutex Passed
+Thread 22: Signaling Mutex
+Thread 24: customer is Crossing from B to A
+Thread 24: Using Stairs
+Thread 24: The customer will finish crossing in 1 seconds
+****
+Thread 48: customer would like to cross from B to A
+Thread 48: There are 0 customers waiting
+Thread 24: Finished Stairs. Waiting for mutex
+Thread 24: Mutex Passed
+Thread 24: Signaling Mutex
+****
+Thread 32: customer would like to cross from B to A
+Thread 32: There are 1 customers waiting
+Thread 8: Finished Stairs. Waiting for mutex
+Thread 8: Mutex Passed
+Thread 8: Signaling Mutex
+****
+Thread 84: customer would like to cross from B to A
+Thread 84: There are 2 customers waiting
+Thread 56: Finished Stairs. Waiting for mutex
+Thread 56: Mutex Passed
+Thread 56: Crossing Direction Reset
+Thread 56: Signaling Mutex
+Thread 41: customer is Crossing from A to B
+Thread 41: Using Stairs
+Thread 41: The customer will finish crossing in 3 seconds
+Thread 65: customer is Crossing from A to B
+Thread 65: Using Stairs
+Thread 65: The customer will finish crossing in 4 seconds
+Thread 89: customer is Crossing from A to B
+Thread 89: Using Stairs
+Thread 89: The customer will finish crossing in 4 seconds
+****
+Thread 10: customer would like to cross from B to A
+Thread 10: There are 3 customers waiting
+****
+Thread 31: customer would like to cross from A to B
+Thread 31: There are 1 customers waiting
+****
+Thread 14: customer would like to cross from B to A
+Thread 14: There are 4 customers waiting
+Thread 41: Finished Stairs. Waiting for mutex
+Thread 41: Mutex Passed
+Thread 41: Signaling Mutex
+Thread 77: customer is Crossing from A to B
+Thread 77: Using Stairs
+Thread 77: The customer will finish crossing in 2 seconds
+****
+Thread 16: customer would like to cross from B to A
+Thread 16: There are 5 customers waiting
+Thread 65: Finished Stairs. Waiting for mutex
+Thread 65: Mutex Passed
+Thread 65: Signaling Mutex
+Thread 89: Finished Stairs. Waiting for mutex
+Thread 89: Mutex Passed
+Thread 89: Signaling Mutex
+****
+Thread 12: customer would like to cross from B to A
+Thread 12: There are 6 customers waiting
+Thread 77: Finished Stairs. Waiting for mutex
+Thread 77: Mutex Passed
+Thread 77: Crossing Direction Reset
+Thread 77: Signaling Mutex
+Thread 48: customer is Crossing from B to A
+Thread 48: Using Stairs
+Thread 48: The customer will finish crossing in 3 seconds
+Thread 32: customer is Crossing from B to A
+Thread 32: Using Stairs
+Thread 32: The customer will finish crossing in 5 seconds
+Thread 84: customer is Crossing from B to A
+Thread 84: Using Stairs
+Thread 84: The customer will finish crossing in 1 seconds
+****
+Thread 47: customer would like to cross from A to B
+Thread 47: There are 1 customers waiting
+Thread 84: Finished Stairs. Waiting for mutex
+Thread 84: Mutex Passed
+Thread 84: Signaling Mutex
+Thread 10: customer is Crossing from B to A
+Thread 10: Using Stairs
+Thread 10: The customer will finish crossing in 3 seconds
+****
+Thread 80: customer would like to cross from B to A
+Thread 80: There are 3 customers waiting
+****
+Thread 75: customer would like to cross from A to B
+Thread 75: There are 2 customers waiting
+Thread 48: Finished Stairs. Waiting for mutex
+Thread 48: Mutex Passed
+Thread 48: Signaling Mutex
+****
+Thread 67: customer would like to cross from A to B
+Thread 67: There are 3 customers waiting
+Thread 10: Finished Stairs. Waiting for mutex
+Thread 10: Mutex Passed
+Thread 10: Signaling Mutex
+****
+Thread 86: customer would like to cross from B to A
+Thread 86: There are 4 customers waiting
+Thread 32: Finished Stairs. Waiting for mutex
+Thread 32: Mutex Passed
+Thread 32: Crossing Direction Reset
+Thread 32: Signaling Mutex
+Thread 31: customer is Crossing from A to B
+Thread 31: Using Stairs
+Thread 31: The customer will finish crossing in 3 seconds
+Thread 47: customer is Crossing from A to B
+Thread 47: Using Stairs
+Thread 47: The customer will finish crossing in 4 seconds
+Thread 75: customer is Crossing from A to B
+Thread 75: Using Stairs
+Thread 75: The customer will finish crossing in 1 seconds
+****
+Thread 96: customer would like to cross from B to A
+Thread 96: There are 5 customers waiting
+Thread 75: Finished Stairs. Waiting for mutex
+Thread 75: Mutex Passed
+Thread 75: Signaling Mutex
+Thread 67: customer is Crossing from A to B
+Thread 67: Using Stairs
+Thread 67: The customer will finish crossing in 6 seconds
+****
+Thread 35: customer would like to cross from A to B
+Thread 35: There are 0 customers waiting
+****
+Thread 11: customer would like to cross from A to B
+Thread 11: There are 1 customers waiting
+Thread 31: Finished Stairs. Waiting for mutex
+Thread 31: Mutex Passed
+Thread 31: Signaling Mutex
+****
+Thread 18: customer would like to cross from B to A
+Thread 18: There are 6 customers waiting
+Thread 47: Finished Stairs. Waiting for mutex
+Thread 47: Mutex Passed
+Thread 47: Signaling Mutex
+****
+Thread 0: customer would like to cross from B to A
+Thread 0: There are 7 customers waiting
+****
+Thread 85: customer would like to cross from A to B
+Thread 85: There are 2 customers waiting
+****
+Thread 74: customer would like to cross from B to A
+Thread 74: There are 8 customers waiting
+Thread 67: Finished Stairs. Waiting for mutex
+Thread 67: Mutex Passed
+Thread 67: Crossing Direction Reset
+Thread 67: Signaling Mutex
+Thread 14: customer is Crossing from B to A
+Thread 14: Using Stairs
+Thread 14: The customer will finish crossing in 3 seconds
+Thread 16: customer is Crossing from B to A
+Thread 16: Using Stairs
+Thread 16: The customer will finish crossing in 1 seconds
+Thread 12: customer is Crossing from B to A
+Thread 12: Using Stairs
+Thread 12: The customer will finish crossing in 2 seconds
+****
+Thread 13: customer would like to cross from A to B
+Thread 13: There are 3 customers waiting
+Thread 16: Finished Stairs. Waiting for mutex
+Thread 16: Mutex Passed
+Thread 16: Signaling Mutex
+Thread 80: customer is Crossing from B to A
+Thread 80: Using Stairs
+Thread 80: The customer will finish crossing in 3 seconds
+****
+Thread 6: customer would like to cross from B to A
+Thread 6: There are 5 customers waiting
+Thread 12: Finished Stairs. Waiting for mutex
+Thread 12: Mutex Passed
+Thread 12: Signaling Mutex
+****
+Thread 98: customer would like to cross from B to A
+Thread 98: There are 6 customers waiting
+Thread 14: Finished Stairs. Waiting for mutex
+Thread 14: Mutex Passed
+Thread 14: Signaling Mutex
+****
+Thread 79: customer would like to cross from A to B
+Thread 79: There are 4 customers waiting
+Thread 80: Finished Stairs. Waiting for mutex
+Thread 80: Mutex Passed
+Thread 80: Crossing Direction Reset
+Thread 80: Signaling Mutex
+Thread 35: customer is Crossing from A to B
+Thread 35: Using Stairs
+Thread 35: The customer will finish crossing in 2 seconds
+Thread 11: customer is Crossing from A to B
+Thread 11: Using Stairs
+Thread 11: The customer will finish crossing in 4 seconds
+Thread 85: customer is Crossing from A to B
+Thread 85: Using Stairs
+Thread 85: The customer will finish crossing in 6 seconds
+****
+Thread 81: customer would like to cross from A to B
+Thread 81: There are 2 customers waiting
+****
+Thread 49: customer would like to cross from A to B
+Thread 49: There are 3 customers waiting
+Thread 35: Finished Stairs. Waiting for mutex
+Thread 35: Mutex Passed
+Thread 35: Signaling Mutex
+Thread 13: customer is Crossing from A to B
+Thread 13: Using Stairs
+Thread 13: The customer will finish crossing in 1 seconds
+****
+Thread 30: customer would like to cross from B to A
+Thread 30: There are 7 customers waiting
+Thread 13: Finished Stairs. Waiting for mutex
+Thread 13: Mutex Passed
+Thread 13: Signaling Mutex
+****
+Thread 33: customer would like to cross from A to B
+Thread 33: There are 3 customers waiting
+Thread 11: Finished Stairs. Waiting for mutex
+Thread 11: Mutex Passed
+Thread 11: Signaling Mutex
+****
+Thread 71: customer would like to cross from A to B
+Thread 71: There are 4 customers waiting
+****
+Thread 55: customer would like to cross from A to B
+Thread 55: There are 5 customers waiting
+Thread 85: Finished Stairs. Waiting for mutex
+Thread 85: Mutex Passed
+Thread 85: Crossing Direction Reset
+Thread 85: Signaling Mutex
+Thread 86: customer is Crossing from B to A
+Thread 86: Using Stairs
+Thread 86: The customer will finish crossing in 5 seconds
+Thread 96: customer is Crossing from B to A
+Thread 96: Using Stairs
+Thread 96: The customer will finish crossing in 4 seconds
+Thread 18: customer is Crossing from B to A
+Thread 18: Using Stairs
+Thread 18: The customer will finish crossing in 2 seconds
+****
+Thread 54: customer would like to cross from B to A
+Thread 54: There are 5 customers waiting
+****
+Thread 23: customer would like to cross from A to B
+Thread 23: There are 6 customers waiting
+Thread 18: Finished Stairs. Waiting for mutex
+Thread 18: Mutex Passed
+Thread 18: Signaling Mutex
+Thread 0: customer is Crossing from B to A
+Thread 0: Using Stairs
+Thread 0: The customer will finish crossing in 2 seconds
+****
+Thread 50: customer would like to cross from B to A
+Thread 50: There are 5 customers waiting
+****
+Thread 5: customer would like to cross from A to B
+Thread 5: There are 7 customers waiting
+Thread 96: Finished Stairs. Waiting for mutex
+Thread 96: Mutex Passed
+Thread 96: Signaling Mutex
+Thread 0: Finished Stairs. Waiting for mutex
+Thread 0: Mutex Passed
+Thread 0: Signaling Mutex
+****
+Thread 76: customer would like to cross from B to A
+Thread 76: There are 6 customers waiting
+Thread 86: Finished Stairs. Waiting for mutex
+Thread 86: Mutex Passed
+Thread 86: Crossing Direction Reset
+Thread 86: Signaling Mutex
+Thread 79: customer is Crossing from A to B
+Thread 79: Using Stairs
+Thread 79: The customer will finish crossing in 3 seconds
+Thread 81: customer is Crossing from A to B
+Thread 81: Using Stairs
+Thread 81: The customer will finish crossing in 5 seconds
+Thread 49: customer is Crossing from A to B
+Thread 49: Using Stairs
+Thread 49: The customer will finish crossing in 3 seconds
+****
+Thread 28: customer would like to cross from B to A
+Thread 28: There are 7 customers waiting
+****
+Thread 64: customer would like to cross from B to A
+Thread 64: There are 8 customers waiting
+****
+Thread 7: customer would like to cross from A to B
+Thread 7: There are 5 customers waiting
+Thread 79: Finished Stairs. Waiting for mutex
+Thread 79: Mutex Passed
+Thread 79: Signaling Mutex
+Thread 49: Finished Stairs. Waiting for mutex
+Thread 49: Mutex Passed
+Thread 49: Signaling Mutex
+Thread 33: customer is Crossing from A to B
+Thread 33: Using Stairs
+Thread 33: The customer will finish crossing in 4 seconds
+Thread 71: customer is Crossing from A to B
+Thread 71: Using Stairs
+Thread 71: The customer will finish crossing in 5 seconds
+****
+Thread 3: customer would like to cross from A to B
+Thread 3: There are 4 customers waiting
+****
+Thread 97: customer would like to cross from A to B
+Thread 97: There are 5 customers waiting
+Thread 81: Finished Stairs. Waiting for mutex
+Thread 81: Mutex Passed
+Thread 81: Signaling Mutex
+****
+Thread 52: customer would like to cross from B to A
+Thread 52: There are 9 customers waiting
+****
+Thread 46: customer would like to cross from B to A
+Thread 46: There are 10 customers waiting
+Thread 33: Finished Stairs. Waiting for mutex
+Thread 33: Mutex Passed
+Thread 33: Signaling Mutex
+****
+Thread 2: customer would like to cross from B to A
+Thread 2: There are 11 customers waiting
+Thread 71: Finished Stairs. Waiting for mutex
+Thread 71: Mutex Passed
+Thread 71: Crossing Direction Reset
+Thread 71: Signaling Mutex
+Thread 74: customer is Crossing from B to A
+Thread 74: Using Stairs
+Thread 74: The customer will finish crossing in 3 seconds
+Thread 6: customer is Crossing from B to A
+Thread 6: Using Stairs
+Thread 6: The customer will finish crossing in 2 seconds
+Thread 98: customer is Crossing from B to A
+Thread 98: Using Stairs
+Thread 98: The customer will finish crossing in 5 seconds
+****
+Thread 95: customer would like to cross from A to B
+Thread 95: There are 6 customers waiting
+****
+Thread 19: customer would like to cross from A to B
+Thread 19: There are 7 customers waiting
+Thread 6: Finished Stairs. Waiting for mutex
+Thread 6: Mutex Passed
+Thread 6: Signaling Mutex
+Thread 30: customer is Crossing from B to A
+Thread 30: Using Stairs
+Thread 30: The customer will finish crossing in 1 seconds
+****
+Thread 58: customer would like to cross from B to A
+Thread 58: There are 8 customers waiting
+Thread 74: Finished Stairs. Waiting for mutex
+Thread 74: Mutex Passed
+Thread 74: Signaling Mutex
+Thread 30: Finished Stairs. Waiting for mutex
+Thread 30: Mutex Passed
+Thread 30: Signaling Mutex
+****
+Thread 88: customer would like to cross from B to A
+Thread 88: There are 9 customers waiting
+****
+Thread 70: customer would like to cross from B to A
+Thread 70: There are 10 customers waiting
+Thread 98: Finished Stairs. Waiting for mutex
+Thread 98: Mutex Passed
+Thread 98: Crossing Direction Reset
+Thread 98: Signaling Mutex
+Thread 55: customer is Crossing from A to B
+Thread 55: Using Stairs
+Thread 55: The customer will finish crossing in 5 seconds
+Thread 23: customer is Crossing from A to B
+Thread 23: Using Stairs
+Thread 23: The customer will finish crossing in 4 seconds
+Thread 5: customer is Crossing from A to B
+Thread 5: Using Stairs
+Thread 5: The customer will finish crossing in 1 seconds
+****
+Thread 17: customer would like to cross from A to B
+Thread 17: There are 5 customers waiting
+Thread 5: Finished Stairs. Waiting for mutex
+Thread 5: Mutex Passed
+Thread 5: Signaling Mutex
+Thread 7: customer is Crossing from A to B
+Thread 7: Using Stairs
+Thread 7: The customer will finish crossing in 3 seconds
+****
+Thread 57: customer would like to cross from A to B
+Thread 57: There are 5 customers waiting
+****
+Thread 62: customer would like to cross from B to A
+Thread 62: There are 11 customers waiting
+****
+Thread 27: customer would like to cross from A to B
+Thread 27: There are 6 customers waiting
+Thread 23: Finished Stairs. Waiting for mutex
+Thread 23: Mutex Passed
+Thread 23: Signaling Mutex
+Thread 7: Finished Stairs. Waiting for mutex
+Thread 7: Mutex Passed
+Thread 7: Signaling Mutex
+****
+Thread 20: customer would like to cross from B to A
+Thread 20: There are 12 customers waiting
+Thread 55: Finished Stairs. Waiting for mutex
+Thread 55: Mutex Passed
+Thread 55: Crossing Direction Reset
+Thread 55: Signaling Mutex
+Thread 54: customer is Crossing from B to A
+Thread 54: Using Stairs
+Thread 54: The customer will finish crossing in 5 seconds
+Thread 50: customer is Crossing from B to A
+Thread 50: Using Stairs
+Thread 50: The customer will finish crossing in 4 seconds
+Thread 76: customer is Crossing from B to A
+Thread 76: Using Stairs
+Thread 76: The customer will finish crossing in 3 seconds
+****
+Thread 39: customer would like to cross from A to B
+Thread 39: There are 7 customers waiting
+****
+Thread 99: customer would like to cross from A to B
+Thread 99: There are 8 customers waiting
+****
+Thread 66: customer would like to cross from B to A
+Thread 66: There are 10 customers waiting
+Thread 76: Finished Stairs. Waiting for mutex
+Thread 76: Mutex Passed
+Thread 76: Signaling Mutex
+Thread 28: customer is Crossing from B to A
+Thread 28: Using Stairs
+Thread 28: The customer will finish crossing in 6 seconds
+****
+Thread 44: customer would like to cross from B to A
+Thread 44: There are 10 customers waiting
+Thread 50: Finished Stairs. Waiting for mutex
+Thread 50: Mutex Passed
+Thread 50: Signaling Mutex
+****
+Thread 83: customer would like to cross from A to B
+Thread 83: There are 9 customers waiting
+Thread 54: Finished Stairs. Waiting for mutex
+Thread 54: Mutex Passed
+Thread 54: Signaling Mutex
+****
+Thread 15: customer would like to cross from A to B
+Thread 15: There are 10 customers waiting
+****
+Thread 90: customer would like to cross from B to A
+Thread 90: There are 11 customers waiting
+****
+Thread 4: customer would like to cross from B to A
+Thread 4: There are 12 customers waiting
+****
+Thread 51: customer would like to cross from A to B
+Thread 51: There are 11 customers waiting
+Thread 28: Finished Stairs. Waiting for mutex
+Thread 28: Mutex Passed
+Thread 28: Crossing Direction Reset
+Thread 28: Signaling Mutex
+Thread 3: customer is Crossing from A to B
+Thread 3: Using Stairs
+Thread 3: The customer will finish crossing in 4 seconds
+Thread 97: customer is Crossing from A to B
+Thread 97: Using Stairs
+Thread 97: The customer will finish crossing in 3 seconds
+Thread 95: customer is Crossing from A to B
+Thread 95: Using Stairs
+Thread 95: The customer will finish crossing in 6 seconds
+****
+Thread 21: customer would like to cross from A to B
+Thread 21: There are 9 customers waiting
+****
+Thread 91: customer would like to cross from A to B
+Thread 91: There are 10 customers waiting
+****
+Thread 25: customer would like to cross from A to B
+Thread 25: There are 11 customers waiting
+Thread 97: Finished Stairs. Waiting for mutex
+Thread 97: Mutex Passed
+Thread 97: Signaling Mutex
+Thread 19: customer is Crossing from A to B
+Thread 19: Using Stairs
+Thread 19: The customer will finish crossing in 5 seconds
+****
+Thread 92: customer would like to cross from B to A
+Thread 92: There are 13 customers waiting
+Thread 3: Finished Stairs. Waiting for mutex
+Thread 3: Mutex Passed
+Thread 3: Signaling Mutex
+****
+Thread 42: customer would like to cross from B to A
+Thread 42: There are 14 customers waiting
+****
+Thread 40: customer would like to cross from B to A
+Thread 40: There are 15 customers waiting
+Thread 95: Finished Stairs. Waiting for mutex
+Thread 95: Mutex Passed
+Thread 95: Signaling Mutex
+****
+Thread 87: customer would like to cross from A to B
+Thread 87: There are 11 customers waiting
+****
+Thread 36: customer would like to cross from B to A
+Thread 36: There are 16 customers waiting
+Thread 19: Finished Stairs. Waiting for mutex
+Thread 19: Mutex Passed
+Thread 19: Crossing Direction Reset
+Thread 19: Signaling Mutex
+Thread 64: customer is Crossing from B to A
+Thread 64: Using Stairs
+Thread 64: The customer will finish crossing in 4 seconds
+Thread 52: customer is Crossing from B to A
+Thread 52: Using Stairs
+Thread 52: The customer will finish crossing in 3 seconds
+Thread 46: customer is Crossing from B to A
+Thread 46: Using Stairs
+Thread 46: The customer will finish crossing in 4 seconds
+****
+Thread 9: customer would like to cross from A to B
+Thread 9: There are 12 customers waiting
+****
+Thread 53: customer would like to cross from A to B
+Thread 53: There are 13 customers waiting
+****
+Thread 26: customer would like to cross from B to A
+Thread 26: There are 14 customers waiting
+Thread 52: Finished Stairs. Waiting for mutex
+Thread 52: Mutex Passed
+Thread 52: Signaling Mutex
+Thread 2: customer is Crossing from B to A
+Thread 2: Using Stairs
+Thread 2: The customer will finish crossing in 1 seconds
+****
+Thread 45: customer would like to cross from A to B
+Thread 45: There are 14 customers waiting
+Thread 64: Finished Stairs. Waiting for mutex
+Thread 64: Mutex Passed
+Thread 64: Signaling Mutex
+Thread 46: Finished Stairs. Waiting for mutex
+Thread 46: Mutex Passed
+Thread 46: Signaling Mutex
+Thread 2: Finished Stairs. Waiting for mutex
+Thread 2: Mutex Passed
+Thread 2: Crossing Direction Reset
+Thread 2: Signaling Mutex
+Thread 17: customer is Crossing from A to B
+Thread 17: Using Stairs
+Thread 17: The customer will finish crossing in 6 seconds
+Thread 57: customer is Crossing from A to B
+Thread 57: Using Stairs
+Thread 57: The customer will finish crossing in 2 seconds
+Thread 27: customer is Crossing from A to B
+Thread 27: Using Stairs
+Thread 27: The customer will finish crossing in 4 seconds
+****
+Thread 78: customer would like to cross from B to A
+Thread 78: There are 14 customers waiting
+****
+Thread 61: customer would like to cross from A to B
+Thread 61: There are 12 customers waiting
+Thread 57: Finished Stairs. Waiting for mutex
+Thread 57: Mutex Passed
+Thread 57: Signaling Mutex
+Thread 39: customer is Crossing from A to B
+Thread 39: Using Stairs
+Thread 39: The customer will finish crossing in 3 seconds
+****
+Thread 73: customer would like to cross from A to B
+Thread 73: There are 12 customers waiting
+****
+Thread 72: customer would like to cross from B to A
+Thread 72: There are 15 customers waiting
+Thread 27: Finished Stairs. Waiting for mutex
+Thread 27: Mutex Passed
+Thread 27: Signaling Mutex
+****
+Thread 94: customer would like to cross from B to A
+Thread 94: There are 16 customers waiting
+Thread 39: Finished Stairs. Waiting for mutex
+Thread 39: Mutex Passed
+Thread 39: Signaling Mutex
+****
+Thread 34: customer would like to cross from B to A
+Thread 34: There are 17 customers waiting
+Thread 17: Finished Stairs. Waiting for mutex
+Thread 17: Mutex Passed
+Thread 17: Crossing Direction Reset
+Thread 17: Signaling Mutex
+Thread 58: customer is Crossing from B to A
+Thread 58: Using Stairs
+Thread 58: The customer will finish crossing in 2 seconds
+Thread 88: customer is Crossing from B to A
+Thread 88: Using Stairs
+Thread 88: The customer will finish crossing in 5 seconds
+Thread 70: customer is Crossing from B to A
+Thread 70: Using Stairs
+Thread 70: The customer will finish crossing in 3 seconds
+****
+Thread 1: customer would like to cross from A to B
+Thread 1: There are 13 customers waiting
+****
+Thread 38: customer would like to cross from B to A
+Thread 38: There are 15 customers waiting
+Thread 58: Finished Stairs. Waiting for mutex
+Thread 58: Mutex Passed
+Thread 58: Signaling Mutex
+Thread 62: customer is Crossing from B to A
+Thread 62: Using Stairs
+Thread 62: The customer will finish crossing in 6 seconds
+****
+Thread 43: customer would like to cross from A to B
+Thread 43: There are 14 customers waiting
+Thread 70: Finished Stairs. Waiting for mutex
+Thread 70: Mutex Passed
+Thread 70: Signaling Mutex
+****
+Thread 60: customer would like to cross from B to A
+Thread 60: There are 15 customers waiting
+Thread 88: Finished Stairs. Waiting for mutex
+Thread 88: Mutex Passed
+Thread 88: Signaling Mutex
+Thread 62: Finished Stairs. Waiting for mutex
+Thread 62: Mutex Passed
+Thread 62: Crossing Direction Reset
+Thread 62: Signaling Mutex
+Thread 99: customer is Crossing from A to B
+Thread 99: Using Stairs
+Thread 99: The customer will finish crossing in 2 seconds
+Thread 83: customer is Crossing from A to B
+Thread 83: Using Stairs
+Thread 83: The customer will finish crossing in 6 seconds
+Thread 15: customer is Crossing from A to B
+Thread 15: Using Stairs
+Thread 15: The customer will finish crossing in 3 seconds
+Thread 99: Finished Stairs. Waiting for mutex
+Thread 99: Mutex Passed
+Thread 99: Signaling Mutex
+Thread 51: customer is Crossing from A to B
+Thread 51: Using Stairs
+Thread 51: The customer will finish crossing in 2 seconds
+Thread 15: Finished Stairs. Waiting for mutex
+Thread 15: Mutex Passed
+Thread 15: Signaling Mutex
+Thread 51: Finished Stairs. Waiting for mutex
+Thread 51: Mutex Passed
+Thread 51: Signaling Mutex
+Thread 83: Finished Stairs. Waiting for mutex
+Thread 83: Mutex Passed
+Thread 83: Crossing Direction Reset
+Thread 83: Signaling Mutex
+Thread 20: customer is Crossing from B to A
+Thread 20: Using Stairs
+Thread 20: The customer will finish crossing in 1 seconds
+Thread 66: customer is Crossing from B to A
+Thread 66: Using Stairs
+Thread 66: The customer will finish crossing in 1 seconds
+Thread 44: customer is Crossing from B to A
+Thread 44: Using Stairs
+Thread 44: The customer will finish crossing in 6 seconds
+Thread 66: Finished Stairs. Waiting for mutex
+Thread 66: Mutex Passed
+Thread 66: Signaling Mutex
+Thread 90: customer is Crossing from B to A
+Thread 90: Using Stairs
+Thread 90: The customer will finish crossing in 3 seconds
+Thread 20: Finished Stairs. Waiting for mutex
+Thread 20: Mutex Passed
+Thread 20: Signaling Mutex
+Thread 90: Finished Stairs. Waiting for mutex
+Thread 90: Mutex Passed
+Thread 90: Signaling Mutex
+Thread 44: Finished Stairs. Waiting for mutex
+Thread 44: Mutex Passed
+Thread 44: Crossing Direction Reset
+Thread 44: Signaling Mutex
+Thread 21: customer is Crossing from A to B
+Thread 21: Using Stairs
+Thread 21: The customer will finish crossing in 5 seconds
+Thread 91: customer is Crossing from A to B
+Thread 91: Using Stairs
+Thread 91: The customer will finish crossing in 1 seconds
+Thread 25: customer is Crossing from A to B
+Thread 25: Using Stairs
+Thread 25: The customer will finish crossing in 4 seconds
+Thread 91: Finished Stairs. Waiting for mutex
+Thread 91: Mutex Passed
+Thread 91: Signaling Mutex
+Thread 87: customer is Crossing from A to B
+Thread 87: Using Stairs
+Thread 87: The customer will finish crossing in 1 seconds
+Thread 87: Finished Stairs. Waiting for mutex
+Thread 87: Mutex Passed
+Thread 87: Signaling Mutex
+Thread 25: Finished Stairs. Waiting for mutex
+Thread 25: Mutex Passed
+Thread 25: Signaling Mutex
+Thread 21: Finished Stairs. Waiting for mutex
+Thread 21: Mutex Passed
+Thread 21: Crossing Direction Reset
+Thread 21: Signaling Mutex
+Thread 4: customer is Crossing from B to A
+Thread 4: Using Stairs
+Thread 4: The customer will finish crossing in 4 seconds
+Thread 92: customer is Crossing from B to A
+Thread 92: Using Stairs
+Thread 92: The customer will finish crossing in 6 seconds
+Thread 42: customer is Crossing from B to A
+Thread 42: Using Stairs
+Thread 42: The customer will finish crossing in 4 seconds
+Thread 42: Finished Stairs. Waiting for mutex
+Thread 42: Mutex Passed
+Thread 42: Signaling Mutex
+Thread 40: customer is Crossing from B to A
+Thread 40: Using Stairs
+Thread 40: The customer will finish crossing in 5 seconds
+Thread 4: Finished Stairs. Waiting for mutex
+Thread 4: Mutex Passed
+Thread 4: Signaling Mutex
+Thread 92: Finished Stairs. Waiting for mutex
+Thread 92: Mutex Passed
+Thread 92: Signaling Mutex
+Thread 40: Finished Stairs. Waiting for mutex
+Thread 40: Mutex Passed
+Thread 40: Crossing Direction Reset
+Thread 40: Signaling Mutex
+Thread 9: customer is Crossing from A to B
+Thread 9: Using Stairs
+Thread 9: The customer will finish crossing in 6 seconds
+Thread 53: customer is Crossing from A to B
+Thread 53: Using Stairs
+Thread 53: The customer will finish crossing in 3 seconds
+Thread 45: customer is Crossing from A to B
+Thread 45: Using Stairs
+Thread 45: The customer will finish crossing in 1 seconds
+Thread 45: Finished Stairs. Waiting for mutex
+Thread 45: Mutex Passed
+Thread 45: Signaling Mutex
+Thread 61: customer is Crossing from A to B
+Thread 61: Using Stairs
+Thread 61: The customer will finish crossing in 3 seconds
+Thread 53: Finished Stairs. Waiting for mutex
+Thread 53: Mutex Passed
+Thread 53: Signaling Mutex
+Thread 61: Finished Stairs. Waiting for mutex
+Thread 61: Mutex Passed
+Thread 61: Signaling Mutex
+Thread 9: Finished Stairs. Waiting for mutex
+Thread 9: Mutex Passed
+Thread 9: Crossing Direction Reset
+Thread 9: Signaling Mutex
+Thread 36: customer is Crossing from B to A
+Thread 36: Using Stairs
+Thread 36: The customer will finish crossing in 3 seconds
+Thread 26: customer is Crossing from B to A
+Thread 26: Using Stairs
+Thread 26: The customer will finish crossing in 2 seconds
+Thread 78: customer is Crossing from B to A
+Thread 78: Using Stairs
+Thread 78: The customer will finish crossing in 2 seconds
+Thread 78: Finished Stairs. Waiting for mutex
+Thread 78: Mutex Passed
+Thread 78: Signaling Mutex
+Thread 72: customer is Crossing from B to A
+Thread 72: Using Stairs
+Thread 72: The customer will finish crossing in 2 seconds
+Thread 26: Finished Stairs. Waiting for mutex
+Thread 26: Mutex Passed
+Thread 26: Signaling Mutex
+Thread 36: Finished Stairs. Waiting for mutex
+Thread 36: Mutex Passed
+Thread 36: Signaling Mutex
+Thread 72: Finished Stairs. Waiting for mutex
+Thread 72: Mutex Passed
+Thread 72: Crossing Direction Reset
+Thread 72: Signaling Mutex
+Thread 73: customer is Crossing from A to B
+Thread 73: Using Stairs
+Thread 73: The customer will finish crossing in 2 seconds
+Thread 1: customer is Crossing from A to B
+Thread 1: Using Stairs
+Thread 1: The customer will finish crossing in 3 seconds
+Thread 43: customer is Crossing from A to B
+Thread 43: Using Stairs
+Thread 43: The customer will finish crossing in 3 seconds
+Thread 73: Finished Stairs. Waiting for mutex
+Thread 73: Mutex Passed
+Thread 73: Signaling Mutex
+Thread 43: Finished Stairs. Waiting for mutex
+Thread 43: Mutex Passed
+Thread 43: Signaling Mutex
+Thread 1: Finished Stairs. Waiting for mutex
+Thread 1: Mutex Passed
+Thread 1: Crossing Direction Reset
+Thread 1: Signaling Mutex
+Thread 94: customer is Crossing from B to A
+Thread 94: Using Stairs
+Thread 94: The customer will finish crossing in 3 seconds
+Thread 34: customer is Crossing from B to A
+Thread 34: Using Stairs
+Thread 34: The customer will finish crossing in 1 seconds
+Thread 38: customer is Crossing from B to A
+Thread 38: Using Stairs
+Thread 38: The customer will finish crossing in 5 seconds
+Thread 34: Finished Stairs. Waiting for mutex
+Thread 34: Mutex Passed
+Thread 34: Signaling Mutex
+Thread 60: customer is Crossing from B to A
+Thread 60: Using Stairs
+Thread 60: The customer will finish crossing in 6 seconds
+Thread 94: Finished Stairs. Waiting for mutex
+Thread 94: Mutex Passed
+Thread 94: Signaling Mutex
+Thread 38: Finished Stairs. Waiting for mutex
+Thread 38: Mutex Passed
+Thread 38: Signaling Mutex
+Thread 60: Finished Stairs. Waiting for mutex
+Thread 60: Mutex Passed
+Thread 60: Crossing Direction Reset
+Thread 60: Signaling Mutex
+Turnaround times[100ms,237ms,395ms,231ms,418ms,585ms,692ms,525ms,335ms,373ms,544ms,693ms,930ms,700ms,654ms,1781ms,1683ms,1955ms,1798ms,2020ms,286ms,2017ms,688ms,620ms,2261ms,2265ms,2457ms,1040ms,842ms,548ms,889ms,875ms,1158ms,1510ms,1235ms,1664ms,1150ms,1119ms,1315ms,1223ms,1226ms,1863ms,2075ms,1598ms,2047ms,1322ms,1680ms,1316ms,1949ms,1751ms,1961ms,2220ms,2032ms,1883ms,2185ms,1847ms,1881ms,2331ms,2828ms,2360ms,2319ms,1884ms,1828ms,1777ms,2262ms,2675ms,2542ms,2906ms,2583ms,2363ms,2160ms,2024ms,2287ms,2459ms,2682ms,2246ms,2545ms,2164ms,1790ms,2092ms,2354ms,2018ms,2531ms,2162ms,2050ms,1782ms,1910ms,1660ms,2033ms,1814ms,1967ms,2164ms,1696ms,1808ms,1404ms,1583ms,1680ms,1795ms,1610ms,1559ms,]/100
+Average Turnaround time = 1.6s
+Response times[44ms,50ms,149ms,62ms,55ms,47ms,51ms,53ms,80ms,90ms,55ms,60ms,45ms,75ms,77ms,80ms,95ms,94ms,68ms,76ms,49ms,50ms,80ms,1238ms,136ms,73ms,44ms,74ms,74ms,93ms,97ms,47ms,74ms,78ms,59ms,49ms,100ms,83ms,79ms,73ms,86ms,62ms,80ms,75ms,74ms,98ms,153ms,51ms,86ms,56ms,86ms,87ms,50ms,140ms,223ms,44ms,79ms,54ms,75ms,95ms,52ms,83ms,142ms,51ms,96ms,114ms,85ms,53ms,81ms,84ms,51ms,53ms,85ms,76ms,84ms,39ms,59ms,54ms,190ms,172ms,79ms,89ms,81ms,43ms,77ms,58ms,87ms,50ms,58ms,86ms,108ms,51ms,85ms,54ms,83ms,92ms,115ms,63ms,85ms,232ms,]/100
+Average Response time = 91.9ms

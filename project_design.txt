@@ -1,0 +1,27 @@
+1. We design three semaphores to prevent deadlock:
+sem_t sem_id_all; //to block the whole stairs
+sem_t sem_id_up; //to block the go-up stair
+sem_t sem_id_down; //to block the go-down stair
+
+2. The Line-up Strategy: (Seen the stair as a turnable with going up/down direction)
+In the beginning, all the customers(threads) try to grab the sem_id_all semaphore, 
+and the one take it will then determine the current direction of the stair.
+If the status of stair with no direction, then start the stair with the customer's direction and increment the count of the queue
+otherwise, wait for the stair
+After each customer finish crossing, determine the count on the stairs and the count at the opposite, 
+if the count on the stair and at the opposite is zero: stop the stair.
+if the count on the stair is zero but the count of the opposite is non-zero: turn the stair. (prevent starving)
+
+3. Design crossCntLock and crossCntUnLock to prevent starving and be more efficient:
+int crossCntLock; //After each stair turnover, the count of customers being passing through stair(owning locks)
+int crossCntUnLock; //After each stair turnover, the count of customers unlocking locks
+We design that when crossCntLock > maxStairs(the max customer can be on the stairs at the same time),
+no longer accept unlocking lock, and turnover the stair.
+Therefore, if there's too many customers waiting at each side, we can let each direction pass a few customers
+to prevent starving
+
+4. Our default setting:
+We design there's 10 customers want to use the stairs at the same time. (We can change the number of thread by change the value of tNum in our stair.c file)
+Ten treads/customers are radomly going upstairs or downstairs but spread out equally.
+Each of the customers passing time is randomly created, the max number that can be on the stair is three.
+We expected the have them passing in groups.
